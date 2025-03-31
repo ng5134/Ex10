@@ -35,15 +35,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void click1(View view)
     {
-        if (bt.isChecked() && !(switch1.isChecked()) )
+        if (tb.isChecked() && !(switch1.isChecked()) )
         {
             m.setBackgroundColor(Color.RED);
         }
-        else if (bt.isChecked() && (switch1.isChecked()) )
+        else if (tb.isChecked() && (switch1.isChecked()) )
         {
             m.setBackgroundColor(Color.BLUE);
         }
-        else if (!(bt.isChecked()) && !(switch1.isChecked()) )
+        else if (!(tb.isChecked()) && !(switch1.isChecked()) )
         {
             m.setBackgroundColor(Color.BLACK);
         }
