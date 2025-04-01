@@ -27,10 +27,11 @@
 
         <Switch
             android:id="@+id/switch1"
-            android:layout_width="200dp"
+            android:layout_width="170dp"
             android:layout_height="match_parent"
             android:layout_weight="15"
-            android:text="Switch" />
+            android:text="Switch"
+            android:textSize="35dp" />
 
         <Space
             android:layout_width="0dp"
@@ -59,7 +60,8 @@
             android:layout_width="159dp"
             android:layout_height="match_parent"
             android:layout_weight="10"
-            android:text="ToggleButton" />
+            android:text="ToggleButton"
+            android:textSize="30dp" />
 
         <Space
             android:layout_width="wrap_content"
@@ -88,7 +90,7 @@
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="10" />
+                android:layout_weight="20" />
 
             <Button
                 android:id="@+id/btn"
@@ -96,7 +98,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="30"
                 android:onClick="click1"
-                android:text="Change color" />
+                android:text="Change color"
+                android:textSize="20dp" />
 
             <Space
                 android:layout_width="match_parent"
