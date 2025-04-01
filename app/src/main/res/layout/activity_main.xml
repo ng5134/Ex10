@@ -27,7 +27,7 @@
 
         <Switch
             android:id="@+id/switch1"
-            android:layout_width="170dp"
+            android:layout_width="200dp"
             android:layout_height="match_parent"
             android:layout_weight="15"
             android:text="Switch" />
@@ -96,7 +96,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="30"
                 android:onClick="click1"
-                android:text="Button" />
+                android:text="Change color" />
 
             <Space
                 android:layout_width="match_parent"
