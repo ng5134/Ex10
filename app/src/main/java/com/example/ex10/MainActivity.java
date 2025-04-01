@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else if (!(tb.isChecked()) && !(switch1.isChecked()) )
         {
-            m.setBackgroundColor(Color.BLACK);
+            m.setBackgroundColor(Color.GREEN);
         }
         else
         {
